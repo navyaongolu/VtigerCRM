@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-05T10:07:34 IST" name="Suite" finished-at="2023-07-05T10:08:30 IST" duration-ms="56007">
+    <groups>
+    </groups>
+    <test started-at="2023-07-05T10:07:34 IST" name="Test" finished-at="2023-07-05T10:08:30 IST" duration-ms="56007">
+      <class name="testscripts.Tc02_Test">
+        <test-method is-config="true" signature="LaunchingBrowser()[pri:0, instance:testscripts.Tc02_Test@1e6a3214]" started-at="2023-07-05T10:07:34 IST" name="LaunchingBrowser" finished-at="2023-07-05T10:07:42 IST" duration-ms="7371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchingBrowser -->
+        <test-method signature="goToHomePage()[pri:0, instance:testscripts.Tc02_Test@1e6a3214]" started-at="2023-07-05T10:07:42 IST" name="goToHomePage" finished-at="2023-07-05T10:07:48 IST" duration-ms="5828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method is-config="true" signature="navigateToApp()[pri:0, instance:testscripts.Tc02_Test@1e6a3214]" started-at="2023-07-05T10:07:42 IST" name="navigateToApp" finished-at="2023-07-05T10:07:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToApp -->
+        <test-method is-config="true" signature="checkTheTestResult(org.testng.ITestResult)[pri:0, instance:testscripts.Tc02_Test@1e6a3214]" started-at="2023-07-05T10:07:48 IST" name="checkTheTestResult" finished-at="2023-07-05T10:07:48 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToHomePage status=SUCCESS method=Tc02_Test.goToHomePage()[pri:0, instance:testscripts.Tc02_Test@1e6a3214] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTheTestResult -->
+        <test-method is-config="true" signature="teardownThheBrowser()[pri:0, instance:testscripts.Tc02_Test@1e6a3214]" started-at="2023-07-05T10:07:48 IST" name="teardownThheBrowser" finished-at="2023-07-05T10:07:54 IST" duration-ms="5903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownThheBrowser -->
+      </class> <!-- testscripts.Tc02_Test -->
+      <class name="testscripts.Tc03_Test">
+        <test-method is-config="true" signature="LaunchingBrowser()[pri:0, instance:testscripts.Tc03_Test@4145bad8]" started-at="2023-07-05T10:07:54 IST" name="LaunchingBrowser" finished-at="2023-07-05T10:08:01 IST" duration-ms="7376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchingBrowser -->
+        <test-method is-config="true" signature="navigateToApp()[pri:0, instance:testscripts.Tc03_Test@4145bad8]" started-at="2023-07-05T10:08:01 IST" name="navigateToApp" finished-at="2023-07-05T10:08:01 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToApp -->
+        <test-method signature="createContact()[pri:0, instance:testscripts.Tc03_Test@4145bad8]" started-at="2023-07-05T10:08:01 IST" name="createContact" finished-at="2023-07-05T10:08:13 IST" duration-ms="11891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+        <test-method is-config="true" signature="checkTheTestResult(org.testng.ITestResult)[pri:0, instance:testscripts.Tc03_Test@4145bad8]" started-at="2023-07-05T10:08:13 IST" name="checkTheTestResult" finished-at="2023-07-05T10:08:13 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createContact status=SUCCESS method=Tc03_Test.createContact()[pri:0, instance:testscripts.Tc03_Test@4145bad8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTheTestResult -->
+        <test-method is-config="true" signature="teardownThheBrowser()[pri:0, instance:testscripts.Tc03_Test@4145bad8]" started-at="2023-07-05T10:08:13 IST" name="teardownThheBrowser" finished-at="2023-07-05T10:08:18 IST" duration-ms="5340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownThheBrowser -->
+      </class> <!-- testscripts.Tc03_Test -->
+      <class name="testscripts.Tc01_Test">
+        <test-method is-config="true" signature="LaunchingBrowser()[pri:0, instance:testscripts.Tc01_Test@d86a6f]" started-at="2023-07-05T10:08:18 IST" name="LaunchingBrowser" finished-at="2023-07-05T10:08:25 IST" duration-ms="6697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchingBrowser -->
+        <test-method signature="loginToApplication()[pri:0, instance:testscripts.Tc01_Test@d86a6f]" started-at="2023-07-05T10:08:25 IST" name="loginToApplication" finished-at="2023-07-05T10:08:25 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method is-config="true" signature="navigateToApp()[pri:0, instance:testscripts.Tc01_Test@d86a6f]" started-at="2023-07-05T10:08:25 IST" name="navigateToApp" finished-at="2023-07-05T10:08:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToApp -->
+        <test-method is-config="true" signature="checkTheTestResult(org.testng.ITestResult)[pri:0, instance:testscripts.Tc01_Test@d86a6f]" started-at="2023-07-05T10:08:25 IST" name="checkTheTestResult" finished-at="2023-07-05T10:08:25 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApplication status=SUCCESS method=Tc01_Test.loginToApplication()[pri:0, instance:testscripts.Tc01_Test@d86a6f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTheTestResult -->
+        <test-method is-config="true" signature="teardownThheBrowser()[pri:0, instance:testscripts.Tc01_Test@d86a6f]" started-at="2023-07-05T10:08:25 IST" name="teardownThheBrowser" finished-at="2023-07-05T10:08:30 IST" duration-ms="5424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownThheBrowser -->
+      </class> <!-- testscripts.Tc01_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
