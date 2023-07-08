@@ -14,6 +14,7 @@ public class Tc01_Test extends BaseClass22
 	@Test
 	public void loginToApplication()
 	{
+		System.out.println("Login Page");
 		System.out.println("login Successfull");
 		ListenerImplementation.logger.log(Status.INFO,"login sucess");
 	}
