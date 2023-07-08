@@ -61,7 +61,8 @@ public class BaseClass22
 			driver.get(ppt.readingdataFromPropertyFile("url"));
 
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
+			
+			System.out.println("getting details from properties file");
 			
 			driver.get(ppt.readingdataFromPropertyFile("url"));	
 			home = new homePage(driver);
